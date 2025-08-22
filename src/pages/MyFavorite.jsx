@@ -80,7 +80,7 @@ export default function MyFavorite() {
               elevation={7}
             >
               <Box sx={{ textAlign: "center" }}>
-                <img className="characterImage" src={data.image} />
+                <img style={{ maxWidth: "100%", height: "auto" }} className="characterImage" src={data.image} />
               </Box>
 
               <Typography variant="h4" style={{ textAlign: "center" }}>
